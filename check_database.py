@@ -2,6 +2,7 @@
 import sqlite3
 # SQLiteのファイルにアクセス
 con = sqlite3.connect('database.db')
+# test
 
 cur = con.cursor()
 
