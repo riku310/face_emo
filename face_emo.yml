@@ -1,0 +1,16 @@
+name: face_emo
+channels:
+  - apple
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pillow
+  - numpy
+  - keras
+  - tensorflow
+  - opencv
+  - pip:
+    - pygame
+prefix: /opt/homebrew/Caskroom/miniforge/base/envs/face_emo
+
